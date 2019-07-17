@@ -1,3 +1,33 @@
+Update- 20190717 at 3:28PM
+________________________
+
+eaciit@hklpadedm27[webapp] $ tail -f nohup.out
+INFO[2019/07/17 15:26:58] [EDCIntegration] [137] Obj. Structure `receiver_bic`, `` of Obj. Def. `scstar_all_cold_swift_details`, `` Validate Success.  source="controllers/EDCIntegration.go:1881"
+DEBU[2019/07/17 15:26:58] [EDCIntegration] Map Unique Key: [OD_DBPNAME=prd_sri_open][OD_P=scstar_all_cold_swift_details]  source="controllers/EDCIntegration.go:853"
+INFO[2019/07/17 15:26:58] [EDCIntegration] [138] Obj. Structure `s_starttime`, `` of Obj. Def. `scstar_all_cold_swift_details`, `` Validate Success.  source="controllers/EDCIntegration.go:1881"
+DEBU[2019/07/17 15:26:58] [EDCIntegration] Map Unique Key: [OD_DBPNAME=prd_sri_open][OD_P=scstar_all_cold_swift_details]  source="controllers/EDCIntegration.go:853"
+INFO[2019/07/17 15:26:58] [EDCIntegration] [139] Obj. Structure `message_status`, `` of Obj. Def. `scstar_all_cold_swift_details`, `` Validate Success.  source="controllers/EDCIntegration.go:1881"
+ERRO[2019/07/17 15:26:58] [EDCIntegration] 1 error(s) when validate file /landingarea_IFRS/DMTdev/scb-dmt/webapp/assets/temp/edc/2019-07/edc_20190717152657_EDC_DMT_INSERT.csv (Origin:/landingarea_IFRS/EDC/EDCfile/EDC_DMT_INSERT.csv)  source="controllers/EDCIntegration.go:457"
+INFO[2019/07/17 15:26:58] [EDCIntegration] Trying to archive `failed EDC file` /landingarea_IFRS/EDC/EDCfile/EDC_DMT_INSERT.csv to /landingarea_IFRS/EDC/EDC_failed_files/2019-07/20190717-152657.510519204/EDC_DMT_INSERT.csv  source="controllers/EDCIntegration.go:470"
+INFO[2019/07/17 15:26:58] [EDCIntegration] Success archive file /landingarea_IFRS/EDC/EDCfile/EDC_DMT_INSERT.csv to /landingarea_IFRS/EDC/EDC_failed_files/2019-07/20190717-152657.510519204/EDC_DMT_INSERT.csv  source="controllers/EDCIntegration.go:481"
+ERRO[2019/07/17 15:26:58] [EDCIntegration] Execute file '/landingarea_IFRS/EDC/EDCfile/EDC_DMT_INSERT.csv' failed!  source="controllers/EDCIntegration.go:311"
+INFO[2019/07/17 15:26:58] [JOB] Set Job ID: JOB00000000371, Status: 1   source="controllers/base.go:1972"
+DEBU[2019/07/17 15:27:18] => Request /edcintegration/forcesetup from 10.20.174.212:9006  source="webapp/main.go:174"
+INFO[2019/07/17 15:27:18] Reading EDC Integration configuration file    source="helper/helper.go:136"
+DEBU[2019/07/17 15:27:18] [EDCIntegration] Ticker Stopped               source="controllers/EDCIntegration.go:99"
+INFO[2019/07/17 15:27:18] [EDCIntegration] => path : /landingarea_IFRS/EDC/EDCfile  source="helper/helper.go:176"
+INFO[2019/07/17 15:27:18] [EDCIntegration] => failArchivePath : /landingarea_IFRS/EDC/EDC_failed_files  source="helper/helper.go:176"
+INFO[2019/07/17 15:27:18] [EDCIntegration] => failOnError : true        source="helper/helper.go:176"
+INFO[2019/07/17 15:27:18] [EDCIntegration] => hostname : (empty)        source="helper/helper.go:174"
+INFO[2019/07/17 15:27:18] [EDCIntegration] => time : 00:00:00           source="helper/helper.go:176"
+INFO[2019/07/17 15:27:18] [EDCIntegration] => password : (empty)        source="helper/helper.go:174"
+INFO[2019/07/17 15:27:18] [EDCIntegration] => username : (empty)        source="helper/helper.go:174"
+INFO[2019/07/17 15:27:18] [EDCIntegration] => csvComma : ,              source="helper/helper.go:176"
+INFO[2019/07/17 15:27:18] [EDCIntegration] => successArchivePath : /landingarea_IFRS/EDC/EDCArchive_file  source="helper/helper.go:176"
+
+__________________________________________________________________________________________________________________________
+
+
 New Update 20190717 at 3:00PM
 __________________________________
 
