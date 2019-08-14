@@ -1,3 +1,293 @@
+
+
+Indexes:
+
+/* 1 */
+[
+    {
+        "v" : 2,
+        "key" : {
+            "_id" : 1
+        },
+        "name" : "_id_",
+        "ns" : "SCBDMT_DEV.ObjectDefinition"
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "updt_dt" : -1
+        },
+        "name" : "updt_dt_-1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "countryname" : 1
+        },
+        "name" : "countryname_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "updt_by" : 1
+        },
+        "name" : "updt_by_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "applayercd" : 1
+        },
+        "name" : "applayercd_1",
+        "background" : true,
+        "ns" : "SCBDMT_DEV.ObjectDefinition"
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "sourcesystemcd" : 1
+        },
+        "name" : "sourcesystemcd_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "countrycd" : 1
+        },
+        "name" : "countrycd_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "logicalname" : 1
+        },
+        "name" : "logicalname_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "physicalname" : 1
+        },
+        "name" : "physicalname_1",
+        "background" : true,
+        "ns" : "SCBDMT_DEV.ObjectDefinition"
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "dbname" : 1
+        },
+        "name" : "dbname_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "hosted" : 1
+        },
+        "name" : "hosted_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "logicalapplayername" : 1
+        },
+        "name" : "logicalapplayername_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "objecttypecode" : 1
+        },
+        "name" : "objecttypecode_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "filestructuretype" : 1
+        },
+        "name" : "filestructuretype_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "tableid" : 1
+        },
+        "name" : "tableid_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "fileid" : 1
+        },
+        "name" : "fileid_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "filestructurename" : 1
+        },
+        "name" : "filestructurename_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "fileformat" : 1
+        },
+        "name" : "fileformat_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "delimitervalue" : 1
+        },
+        "name" : "delimitervalue_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "expectedtimeofarrival" : 1
+        },
+        "name" : "expectedtimeofarrival_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "estimateddatavolume" : 1
+        },
+        "name" : "estimateddatavolume_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "dateformatindata" : 1
+        },
+        "name" : "dateformatindata_1",
+        "background" : true,
+        "ns" : "SCBDMT_DEV.ObjectDefinition"
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "filecontenttype" : 1
+        },
+        "name" : "filecontenttype_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "headerrecordname" : 1
+        },
+        "name" : "headerrecordname_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "detailrecordname" : 1
+        },
+        "name" : "detailrecordname_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "trailerrecordname" : 1
+        },
+        "name" : "trailerrecordname_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "datafrequency" : 1
+        },
+        "name" : "datafrequency_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "subjectarea" : 1
+        },
+        "name" : "subjectarea_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "isactive" : 1
+        },
+        "name" : "isactive_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "isbusinesskeyunique" : 1
+        },
+        "name" : "isbusinesskeyunique_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "remark" : 1
+        },
+        "name" : "remark_1",
+        "ns" : "SCBDMT_DEV.ObjectDefinition",
+        "background" : true
+    }
+]
+
+
+
+
+
 SCSTAR_ALL_COLD_SWIFT_DETAILS:
 
 /* 1 */
